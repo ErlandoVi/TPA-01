@@ -72,6 +72,16 @@
     line-height: 1.9;
     margin-bottom: 2rem;
     }
+    .hero .contact h1{
+      font-size: 2rem;
+      color: var(--primary);
+    }
+    .hero .contact a{
+      color: var(--white);
+    }
+    .hero .contact a:hover{
+      color: var(--primary);
+    }
 
     section{
       padding: 6rem;
