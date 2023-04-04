@@ -120,17 +120,17 @@
       background: var(--primary);
       }
 
-      section.articles{
+      section.portfolio{
         background: rgb(17, 17, 17)
         }
-        .articles-head{
+        .portfolio-head{
         color: rgb(10, 9, 9);
         text-align: center;
         margin-bottom: 1rem;
         line-height: 0.5rem;
         color: var(--primary);
         }
-        .articles-head + p{
+        .portfolio-head + p{
         color: var(--white);
         font-family: 'Lato', sans-serif;
         margin-bottom: 1rem;
@@ -142,41 +142,41 @@
         width: 50px;
         background:white;
         }
-        section.articles .card-grid{
+        section.portfolio .card-grid{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         column-gap: 2rem;
         }
-        section.articles .card-grid .card{
+        section.portfolio .card-grid .card{
         background: var(--white);
         padding: 3rem 2rem;
         position: relative;
         text-align: center;
         transition: all .2s ease;
         }
-        section.articles .card-grid .card img{
+        section.portfolio .card-grid .card img{
         position: absolute;
         top: -1.5rem;
         left: 50%;
         transform: translateX(-50%);
         color: var();
         }
-        section.articles .card-grid .card h2{
+        section.portfolio .card-grid .card h2{
         font-weight: 600;
         font-size: 1.2rem;
         margin-bottom: 0.5rem;
         }
-        section.articles .card-grid .card p{
+        section.portfolio .card-grid .card p{
         font-family: 'Lato', sans-serif;
         color: var(--seconday);
         line-height: 1.6;
         }
-        section.articles .card-grid .card:hover{
+        section.portfolio .card-grid .card:hover{
         background: var(--primary);
         }
-        section.articles .card-grid .card:hover h2{
+        section.portfolio .card-grid .card:hover h2{
         color: var(--white);
         }
-        section.articles .card-grid .card:hover p{
+        section.portfolio .card-grid .card:hover p{
         color: var(--white);
         }
