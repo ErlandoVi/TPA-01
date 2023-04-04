@@ -34,6 +34,7 @@
   }
 
   body{
+    background-color: var(--bgDark);
     font-family: 'Poppins', sans-serif;
     }
     .container{
@@ -111,65 +112,71 @@
         border-radius: 0px 50px 0px 50px;
       }
 
-      section.portfolio{
-        background: rgb(17, 17, 17)
-        }
-        .portfolio-head{
-        color: rgb(10, 9, 9);
-        text-align: center;
-        margin-bottom: 1rem;
-        line-height: 0.5rem;
+      #sec1 h1 {
+        color: white;
+      }
+      
+      #higlight {
+        color: white;
+      }
+      
+      
+      .linknews a:hover {
         color: var(--primary);
-        }
-        .portfolio-head + p{
+      }
+      
+      a:hover {
         color: var(--white);
-        font-family: 'Lato', sans-serif;
-        margin-bottom: 1rem;
-        text-align: center;
-        margin-bottom: 6rem;
-        font-weight: 400;
+      }
+      
+      #sec1 {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      #sec1 h1 {
+        color : var(--primary);
+        font-size: 40px;
+        padding : 10px
+      }
+      
+      #sec1 > div {
+        box-shadow: 0px 0.5px 0px #96969c;
+        padding: 10px 10px 15px 10px;
+        margin-top: 10px;
+      }
+      
+      .linknews > a {
+        color : #c3f8e7;
+        font-size: 32px;
+        letter-spacing: 0.5px;
+      
+      }
+      
+      div >  p {
+        color : white;
+        font-size: 16px;
+        margin-top: 5px;
+        letter-spacing: 0.2px;
+      }
+      div >  p > a {
+        color : white;
+        font-size: 12px;
+        margin-top: 5px;
+      }
+      
+      #tanggal {
+        color: #f6f8ea;
+      }
+      
+      
+      @media only screen and (max-width: 1200px) {
+      
+      
+        nav {
+          justify-content: center;
         }
-        .card img{
-        width: 50px;
-        background:white;
-        }
-        section.portfolio .card-grid{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        column-gap: 2rem;
-        }
-        section.portfolio .card-grid .card{
-        background: var(--white);
-        padding: 3rem 2rem;
-        position: relative;
-        text-align: center;
-        transition: all .2s ease;
-        }
-        section.portfolio .card-grid .card img{
-        position: absolute;
-        top: -1.5rem;
-        left: 50%;
-        transform: translateX(-50%);
-        color: var();
-        }
-        section.portfolio .card-grid .card h2{
-        font-weight: 600;
-        font-size: 1.2rem;
-        margin-bottom: 0.5rem;
-        }
-        section.portfolio .card-grid .card p{
-        font-family: 'Lato', sans-serif;
-        color: var(--primary);
-        line-height: 3;
-        font-weight: bold;
-        font-size: 3rem;
-        }
-        section.portfolio .card-grid .card:hover{
-        background: var(--primary);
-        }
-        section.portfolio .card-grid .card:hover h2{
-        color: var(--white);
-        }
-        section.portfolio .card-grid .card:hover p{
-        color: var(--white);
-        }
+      }
+      
+      
